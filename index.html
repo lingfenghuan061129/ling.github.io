@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="animate-on-scroll">凌风环</h1>
+            <p class="animate-on-scroll delay-1">探索无限可能的前端开发之旅</p>
+            <div class="header-buttons animate-on-scroll delay-2">
+                <a href="#about" class="btn btn-primary">了解更多</a>
+                <a href="#projects" class="btn btn-secondary">查看作品</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about">关于我</a></li>
+                <li><a href="#skills">技能</a></li>
+                <li><a href="#projects">作品</a></li>
+                <li><a href="#contact">联系我</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="animate-on-scroll">关于我</h2>
+                <div class="about-content">
+                    <div class="about-avatar animate-on-scroll delay-1">
+                        <div class="avatar-container">
+                            <img src="./头像.jpg" alt="凌风环" class="avatar-image">
+                        </div>
+                    </div>
+                    <div class="about-text animate-on-scroll delay-2">
+                        <p>大家好，我是凌风环，一名热爱前端开发的探索者。目前正在深入学习HTML、CSS和JavaScript，致力于创建美观实用、用户体验优秀的网站。</p>
+                        <p>我喜欢简洁清新的设计风格，注重细节和用户体验。在学习过程中，我不断探索新的技术和设计理念，努力提升自己的技能，追求代码的优雅和性能的优化。</p>
+                        
+                        <div class="about-stats">
+                            <div class="stat-item">
+                                <span class="stat-number">10+</span>
+                                <span class="stat-label">项目经验</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">学习年限</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">技术栈</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Personal Experience -->
+                <div class="about-experience animate-on-scroll delay-3">
+                    <h3>个人经历</h3>
+                    <div class="experience-timeline">
+                        <div class="experience-item">
+                            <div class="experience-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="experience-content">
+                                <h4>人工智能技术应用</h4>
+                                <p class="experience-date">2025 - 2028</p>
+                                <p>重庆安防职业学院</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-icon">
+                                <i class="fas fa-laptop-code"></i>
+                            </div>
+                            <div class="experience-content">
+                                <h4>前端开发实习生</h4>
+                                <p class="experience-date">2025.10 - 2026.1</p>
+                                <p>小米企业</p>
+                            </div>
+                        </div>
+                        <div class="experience-item">
+                            <div class="experience-icon">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="experience-content">
+                                <h4>自由职业开发者</h4>
+                                <p class="experience-date">2026.01 - 至今</p>
+                                <p>独立开发各类网站和应用</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interests -->
+                <div class="about-interests animate-on-scroll delay-4">
+                    <h3>兴趣爱好</h3>
+                    <div class="interests-grid">
+                        <div class="interest-item">
+                            <i class="fas fa-gamepad"></i>
+                            <h4>游戏开发</h4>
+                            <p>利用HTML5 Canvas和JavaScript开发小游戏</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-paint-brush"></i>
+                            <h4>UI设计</h4>
+                            <p>学习使用Figma和Photoshop进行界面设计</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-music"></i>
+                            <h4>音乐制作</h4>
+                            <p>业余时间学习电子音乐制作</p>
+                        </div>
+                        <div class="interest-item">
+                            <i class="fas fa-camera"></i>
+                            <h4>摄影</h4>
+                            <p>喜欢拍摄自然风光和城市建筑</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="section bg-light">
+            <div class="container">
+                <h2 class="animate-on-scroll">技能</h2>
+                <p class="section-description animate-on-scroll delay-1">掌握多种前端技术，专注于创建美观、高效和用户友好的网站</p>
+                
+                <!-- Technical Skills -->
+                <div class="skills-category animate-on-scroll delay-2">
+                    <h3>技术技能</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-html5"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>HTML5</h3>
+                                <p>熟练掌握HTML5语义化标签、表单、Canvas和Web Storage等特性</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                                <div class="skill-level">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-css3-alt"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>CSS3</h3>
+                                <p>精通CSS Grid、Flexbox、动画、过渡和响应式设计</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                                <div class="skill-level">85%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-js-square"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>JavaScript</h3>
+                                <p>熟练掌握ES6+特性、DOM操作、异步编程和模块化开发</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%;"></div>
+                                </div>
+                                <div class="skill-level">80%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-react"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>React</h3>
+                                <p>了解React基础概念、组件化开发和Hooks使用</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 65%;"></div>
+                                </div>
+                                <div class="skill-level">65%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-bootstrap"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>Bootstrap</h3>
+                                <p>熟练使用Bootstrap框架快速构建响应式网站</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%;"></div>
+                                </div>
+                                <div class="skill-level">75%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fab fa-sass"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>Sass</h3>
+                                <p>熟悉Sass预处理器的变量、混合宏和嵌套规则</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%;"></div>
+                                </div>
+                                <div class="skill-level">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Soft Skills -->
+                <div class="skills-category animate-on-scroll delay-3">
+                    <h3>软技能</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>学习能力</h3>
+                                <p>快速掌握新技术和工具，持续学习和自我提升</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 95%;"></div>
+                                </div>
+                                <div class="skill-level">95%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>设计思维</h3>
+                                <p>具备良好的美学素养和用户体验设计意识</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                                <div class="skill-level">85%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-brain"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>问题解决</h3>
+                                <p>具备良好的逻辑思维和问题分析能力</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%;"></div>
+                                </div>
+                                <div class="skill-level">90%</div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">
+                                <i class="fas fa-comments"></i>
+                            </div>
+                            <div class="skill-content">
+                                <h3>团队协作</h3>
+                                <p>良好的沟通能力和团队合作精神</p>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%;"></div>
+                                </div>
+                                <div class="skill-level">85%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="animate-on-scroll">作品</h2>
+                <p class="section-description animate-on-scroll delay-1">探索我创建的各种网站和应用，展示我的前端开发技能和设计理念</p>
+                <div class="projects-grid">
+                    <div class="project-item animate-on-scroll delay-1">
+                        <div class="project-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>个人博客系统</h3>
+                        <p>使用HTML、CSS和JavaScript创建的响应式个人博客系统，支持文章发布、分类和搜索功能。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">响应式设计</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> 预览
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item animate-on-scroll delay-2">
+                        <div class="project-icon">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <h3>电商网站模板</h3>
+                        <p>现代化的电商网站模板，包含产品展示、购物车和用户账户功能。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">响应式设计</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> 预览
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item animate-on-scroll delay-3">
+                        <div class="project-icon">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h3>天气应用</h3>
+                        <p>使用API获取实时天气数据的单页应用，支持多城市查询和天气预报。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">API调用</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> 预览
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item animate-on-scroll delay-4">
+                        <div class="project-icon">
+                            <i class="fas fa-gamepad"></i>
+                        </div>
+                        <h3>贪吃蛇游戏</h3>
+                        <p>经典的贪吃蛇游戏，使用HTML5 Canvas和JavaScript实现。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5 Canvas</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">游戏开发</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> 预览
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item animate-on-scroll delay-5">
+                        <div class="project-icon">
+                            <i class="fas fa-calculator"></i>
+                        </div>
+                        <h3>科学计算器</h3>
+                        <p>功能齐全的科学计算器，支持各种数学运算和函数。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> 预览
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                    <div class="project-item animate-on-scroll delay-6">
+                        <div class="project-icon">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h3>数据可视化仪表板</h3>
+                        <p>使用Chart.js创建的数据可视化仪表板，展示各种图表和统计数据。</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> 预览
+                            </a>
+                            <a href="#" class="project-link">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section bg-light">
+            <div class="container">
+                <h2 class="animate-on-scroll">联系我</h2>
+                <p class="section-description animate-on-scroll delay-1">有任何问题或合作意向？欢迎随时联系我</p>
+                <div class="contact-content">
+                    <div class="contact-info animate-on-scroll delay-2">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div class="contact-item-content">
+                                <h4>邮箱</h4>
+                                <p><a href="mailto:lingfenghuan@example.com">lingfenghuan@example.com</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div class="contact-item-content">
+                                <h4>电话</h4>
+                                <p><a href="tel:12345678910">123-4567-8910</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="contact-item-content">
+                                <h4>地址</h4>
+                                <p>重庆市</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Social Media Links -->
+                        <div class="contact-social animate-on-scroll delay-3">
+                            <h3>社交媒体</h3>
+                            <div class="social-links">
+                                <a href="#" class="social-link" aria-label="GitHub">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="微博">
+                                    <i class="fab fa-weibo"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="抖音">
+                                    <i class="fab fa-tiktok"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="LinkedIn">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                                <a href="#" class="social-link" aria-label="微信">
+                                    <i class="fab fa-weixin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form animate-on-scroll delay-3">
+                        <form id="contact-form">
+                            <div class="form-group">
+                                <label for="name">姓名</label>
+                                <input type="text" id="name" name="name" required>
+                                <div class="error-message" id="name-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">邮箱</label>
+                                <input type="email" id="email" name="email" required>
+                                <div class="error-message" id="email-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">主题</label>
+                                <input type="text" id="subject" name="subject" required>
+                                <div class="error-message" id="subject-error"></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">留言</label>
+                                <textarea id="message" name="message" rows="5" required></textarea>
+                                <div class="error-message" id="message-error"></div>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <i class="fas fa-paper-plane"></i> 发送留言
+                            </button>
+                            <div class="form-status" id="form-status"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 我的个人网站</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" class="back-to-top" aria-label="返回顶部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // 页面加载动画
+        window.addEventListener('load', function() {
+            // 隐藏加载动画
+            const loader = document.querySelector('.loader');
+            if (loader) {
+                loader.classList.add('fade-out');
+                setTimeout(() => {
+                    loader.style.display = 'none';
+                }, 500);
+            }
+            
+            // 初始化光标效果
+            const cursor = document.createElement('div');
+            cursor.classList.add('cursor', 'visible');
+            document.body.appendChild(cursor);
+            
+            // 初始滚动动画检查
+            animateOnScroll();
+        });
+
+        // 返回顶部按钮功能
+        const backToTopButton = document.getElementById('back-to-top');
+
+        // 当页面滚动超过300px时显示按钮
+        window.addEventListener('scroll', () => {
+            if (window.pageYOffset > 300) {
+                backToTopButton.classList.add('visible');
+            } else {
+                backToTopButton.classList.remove('visible');
+            }
+            
+            // 触发滚动动画
+            animateOnScroll();
+            
+            // 导航栏滚动效果
+            const nav = document.querySelector('nav');
+            if (window.pageYOffset > 100) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        });
+
+        // 点击按钮平滑滚动到顶部
+        backToTopButton.addEventListener('click', () => {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // 滚动动画功能
+        function animateOnScroll() {
+            const animatedElements = document.querySelectorAll('.animate-on-scroll');
+            
+            animatedElements.forEach(element => {
+                const elementPosition = element.getBoundingClientRect().top;
+                const screenPosition = window.innerHeight / 1.3;
+                
+                if (elementPosition < screenPosition) {
+                    element.classList.add('animated');
+                }
+            });
+        }
+
+        // 平滑滚动到锚点
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    const offsetTop = targetElement.offsetTop - 80; // 考虑导航栏高度
+                    
+                    window.scrollTo({
+                        top: offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // 鼠标跟随效果
+        document.addEventListener('mousemove', (e) => {
+            const cursor = document.querySelector('.cursor');
+            if (cursor) {
+                cursor.style.left = e.clientX + 'px';
+                cursor.style.top = e.clientY + 'px';
+            }
+        });
+
+        // 添加鼠标点击动画
+        document.addEventListener('click', (e) => {
+            const clickEffect = document.createElement('div');
+            clickEffect.classList.add('click-effect');
+            clickEffect.style.left = e.clientX + 'px';
+            clickEffect.style.top = e.clientY + 'px';
+            document.body.appendChild(clickEffect);
+            
+            setTimeout(() => {
+                clickEffect.remove();
+            }, 1000);
+        });
+
+        // 表单验证功能
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.getElementById('contact-form');
+            const status = document.getElementById('form-status');
+
+            // 表单字段
+            const name = document.getElementById('name');
+            const email = document.getElementById('email');
+            const subject = document.getElementById('subject');
+            const message = document.getElementById('message');
+
+            // 错误信息元素
+            const nameError = document.getElementById('name-error');
+            const emailError = document.getElementById('email-error');
+            const subjectError = document.getElementById('subject-error');
+            const messageError = document.getElementById('message-error');
+
+            // 验证单个字段
+            function validateField(field, errorElement, minLength = 3) {
+                let isValid = true;
+                errorElement.textContent = '';
+
+                if (!field.value.trim()) {
+                    errorElement.textContent = '此字段为必填项';
+                    isValid = false;
+                } else if (field.value.trim().length < minLength) {
+                    errorElement.textContent = `至少需要${minLength}个字符`;
+                    isValid = false;
+                } else if (field.type === 'email' && !isValidEmail(field.value)) {
+                    errorElement.textContent = '请输入有效的邮箱地址';
+                    isValid = false;
+                }
+
+                return isValid;
+            }
+
+            // 验证邮箱格式
+            function isValidEmail(email) {
+                const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+                return emailRegex.test(email);
+            }
+
+            // 实时验证
+            name.addEventListener('input', function() {
+                validateField(name, nameError, 2);
+            });
+
+            email.addEventListener('input', function() {
+                validateField(email, emailError, 5);
+            });
+
+            subject.addEventListener('input', function() {
+                validateField(subject, subjectError, 5);
+            });
+
+            message.addEventListener('input', function() {
+                validateField(message, messageError, 10);
+            });
+
+            // 表单提交处理
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+
+                // 隐藏之前的状态消息
+                status.style.display = 'none';
+
+                // 验证所有字段
+                const isNameValid = validateField(name, nameError, 2);
+                const isEmailValid = validateField(email, emailError, 5);
+                const isSubjectValid = validateField(subject, subjectError, 5);
+                const isMessageValid = validateField(message, messageError, 10);
+
+                if (isNameValid && isEmailValid && isSubjectValid && isMessageValid) {
+                    // 禁用提交按钮
+                    const submitBtn = form.querySelector('.submit-btn');
+                    submitBtn.disabled = true;
+                    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> 发送中...';
+
+                    // 模拟表单提交
+                    setTimeout(() => {
+                        // 恢复提交按钮
+                        submitBtn.disabled = false;
+                        submitBtn.innerHTML = '<i class="fas fa-paper-plane"></i> 发送留言';
+
+                        // 显示成功消息
+                        status.textContent = '留言发送成功！感谢您的联系，我会尽快回复您。';
+                        status.className = 'form-status success';
+
+                        // 重置表单
+                        form.reset();
+
+                        // 3秒后隐藏成功消息
+                        setTimeout(() => {
+                            status.style.display = 'none';
+                        }, 3000);
+                    }, 1500);
+                } else {
+                    // 显示错误消息
+                    status.textContent = '请检查并修正表单中的错误';
+                    status.className = 'form-status error';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
